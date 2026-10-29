@@ -32,7 +32,11 @@ jobs:
         env:
           BASE: /${{ github.event.repository.name }}/
 
+      # enablement turns Pages on for the repo if it has never been configured,
+      # so the first push publishes instead of failing on a missing Pages site.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
