@@ -1,18 +1,29 @@
 {
-  "name": "flight_sim",
+  "name": "stratos",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "STRATOS — a browser flight simulator with a real 6-DOF flight model, Scott AFB and guns-only dogfights.",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
     "stop": "node tools/stop.mjs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
+  "keywords": [
+    "flight-simulator",
+    "threejs",
+    "webgl",
+    "dogfight",
+    "f-22"
+  ],
+  "author": "Matia (https://github.com/jzewdu)",
+  "license": "MIT",
+  "homepage": "https://jzewdu.github.io/Stratos/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzewdu/Stratos.git"
+  },
   "dependencies": {
     "three": "^0.186.1"
   },

@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build output (GitHub Pages builds it in CI)
+dist/
+dist-ssr/
+
+# Local captures and headless-browser artefacts
+screenshots/
+*.local
+*.log
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Freebuff workspace marker
+.freebuff/
